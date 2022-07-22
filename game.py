@@ -18,11 +18,11 @@ def winner(user_choice, computer_choice):
         return "The user wins"
 
     elif user_choice == "paper" and computer_choice == "rock":
-        return "The computer wins"
+        return "The user wins"
     elif user_choice == "paper" and computer_choice == "paper":
         return "It's a tie!"
     elif user_choice == "paper" and computer_choice == "scissors":
-        return "The user wins"
+        return "The computer wins"
 
     elif user_choice == "scissors" and computer_choice == "rock":
         return "The computer wins"
@@ -30,7 +30,7 @@ def winner(user_choice, computer_choice):
         return "The user wins"
     elif user_choice == "scissors" and computer_choice == "scissors":
         return "It's a tie!"
-    return "OOPS - TODO"
+    
 
 # only run this code if we run this script from the command line
 # but not if we iomport some code from this file to another file
